@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "doorone",
+	"version": "${version}",
+	"name": "Doorone",
+	"description": "My first mod",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/doorone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.me.doorone.Doorone"
+		],
+		"fabric-datagen": [
+			"net.me.doorone.DooroneDataGenerator"
+		],
+		"client": [
+			"net.me.doorone.DooroneClient"
+		]
+	},
+	"mixins": [
+		"doorone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
