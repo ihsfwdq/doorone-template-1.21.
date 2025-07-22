@@ -13,4 +13,4 @@ public class Doorone implements ModInitializer {
 	public void onInitialize() {
 	}
 }
-// cool guyg
+// very important
