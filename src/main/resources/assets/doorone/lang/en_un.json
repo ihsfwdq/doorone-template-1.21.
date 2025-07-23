@@ -1,4 +1,7 @@
 {
   "item.doorone.pink_garnet": "Pink Garnet",
-  "item.doorone.raw_pink_garnet": "Raw Pink Garnet"
+  "item.doorone.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.doorone.pink_garnet_block": "Pink Garnet Block",
+  "block.Doorone.raw_pink_garnet_Block": "Raw Pink Garnet Block"
 }
