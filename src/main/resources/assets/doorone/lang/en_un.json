@@ -2,6 +2,9 @@
   "item.doorone.pink_garnet": "Pink Garnet",
   "item.doorone.raw_pink_garnet": "Raw Pink Garnet",
 
-  "block.doorone.pink_garnet_block": "Pink Garnet Block",
-  "block.Doorone.raw_pink_garnet_Block": "Raw Pink Garnet Block"
+  "block.Doorone.pink_garnet_block": "Pink Garnet Block",
+  "block.Doorone.raw_pink_garnet_Block": "Raw Pink Garnet Block",
+
+  "itemgroup.doorone.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.doorone.pink_garnet_blocks": "Pink Garnet blocks"
 }

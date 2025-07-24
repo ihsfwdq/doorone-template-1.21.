@@ -3,6 +3,7 @@ package net.me.doorone;
 import net.fabricmc.api.ModInitializer;
 
 import net.me.doorone.block.ModBlocks;
+import net.me.doorone.item.ModItemGroups;
 import net.me.doorone.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ public class Doorone implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
